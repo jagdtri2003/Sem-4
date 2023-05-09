@@ -27,9 +27,12 @@ class Student:
 
 s1=Student(40,50)
 s2=Student(39,82)
+s4=Student(10,20)
 
-s3=s1+s2  # + is replaced by __add__ method 
+s3=s1+s2+s4  # + is replaced by __add__ method 
 # print(s3.m1,s3.m2)
+
+print(s3)
 
 print(s1) # it will call s3.__str__()
 print(s2)
