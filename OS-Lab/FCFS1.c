@@ -34,7 +34,7 @@ int main(){
 		printf("P%d\t%d\t%d\t%d\t%d\n",i+1,Arr[i][0],Arr[i][1],Arr[i][2],Arr[i][3]);
 	}
 
-	printf("\n\nAvg WT=%f and Avg TAT=%f",avgWt,avgTAT);
+	printf("\nAvg WT=%f and Avg TAT=%f",avgWt,avgTAT);
 
 	
 	return 0;
