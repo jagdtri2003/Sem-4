@@ -10,7 +10,7 @@ int main()
 	printf("Enter number of process: ");
 	scanf("%d", &n);
 	printf("Enter Burst Time:\n");
-	// User Input Burst Time and alloting Process Id.
+	// User Input Burst Time and allocating Process Id.
 	for (i = 0; i < n; i++) {
 		printf("P%d: ", i + 1);
 		scanf("%d", &A[i][1]);
