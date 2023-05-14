@@ -26,7 +26,7 @@ int main(){
 	for(i=0;i<pro;i++){
 		Arr[i][3]=0;
 		Arr[i][3]+=Arr[i][1]+Arr[i][2];
-		total=Arr[i][3];
+		total+=Arr[i][3];
 	}
 	avgTAT=total/pro;
 	printf("Output :\nProcess\tAT\tBT\tWT\tTAT\n");
