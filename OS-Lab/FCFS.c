@@ -6,7 +6,7 @@ int main(){
 	printf("Enter the number of Processes : ");
 	scanf("%d",&pro);
 	for(i=0;i<pro;i++){
-		printf("Enter the burst Time for Process %d: ",i+1);
+		printf("Enter the burst Time for P%d: ",i+1);
 		scanf("%d",&BT[i]);
 		printf("\n");
 	}
@@ -28,8 +28,9 @@ int main(){
 	avgWT=s1/pro;
 	avgTAT=s2/pro;
 	printf("AVG WT and TAT is %f and %f \n",avgWT,avgTAT);
+	printf("Process  WT\tTAT\n");
 	for(i=0;i<pro;i++){
-		printf("WT and TAT of process %d is %d and %d\n",i+1,WT[i],TAT[i]);
+		printf("P%d\t %d\t %d\n",i+1,WT[i],TAT[i]);
 	}
 	return 0;
 
