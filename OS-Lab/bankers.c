@@ -26,13 +26,11 @@ int main(){
 		scanf("%d",&avail[i]);
 		
 	}
-	printf("RUNNING 0");
 	for(i=0;i<n;i++){
 		for(j=0;j<m;j++){
 			need[i][j]=max[i][j]-allo[i][j];
 		}
 	}
-	printf("RUNNING 1");
 	while(rp!=0){
 		for(i=0;i<n;i++){
 			if(flag[i]==0){
