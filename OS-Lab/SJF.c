@@ -21,13 +21,13 @@ int main()
 			}
 		}
 		if (index!=i){
-    		temp = A[i][1];
-    		A[i][1] = A[index][1];
-    		A[index][1] = temp;
-    
-    		temp = A[i][0];
-    		A[i][0] = A[index][0];
-    		A[index][0] = temp;
+			temp = A[i][1];
+			A[i][1] = A[index][1];
+			A[index][1] = temp;
+
+			temp = A[i][0];
+			A[i][0] = A[index][0];
+			A[index][0] = temp;
 		}
 	}
     
