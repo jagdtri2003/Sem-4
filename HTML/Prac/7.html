@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>String and Maths</title>
+</head>
+<body>
+    <p id="a"></p>
+    <p id="b"></p>
+    <p id="c"></p>
+    <script>
+        var str="Hello World ";
+        var upper=str.toUpperCase();
+        var lower=str.toLowerCase();
+        var pr=upper.concat(" ",lower);
+        var un=str.charAt(1);
+        document.getElementById("a").innerHTML=pr+" "+un;
+        var num=2.56;
+        pr="Round off of "+num+" is "+Math.round(num);
+        document.getElementById("b").innerHTML=pr;
+        var ran=Math.random()*1000;
+        document.getElementById("c").innerHTML=Math.floor(ran)+" "+Math.ceil(ran);
+    </script>
+</body>
+</html>
